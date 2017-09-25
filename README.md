@@ -6,6 +6,7 @@ You can find the curriculum at http://freecodecamp.com
 ## Current Project
 
 The current project is to build a face for FCCNWA as well as a social portal for all FCCNWA students.
+<a href="https://mrmperial.github.io/FCC-Project/" target="_blank">Visit the project here!</a>
 
 ### Contributors
 
