@@ -1,0 +1,58 @@
+.jumbotron{
+    background-color: rgb(209, 209, 209);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-menu{
+    border-color: rgb(134, 135, 139);
+    color: rgb(119, 119, 121);
+    height: 30px;
+    border-radius: 5px;
+    border-bottom-width: 0px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.btn-menu:hover{
+    border-color: rgb(134, 135, 139);
+    background-color: rgb(209, 209, 209);
+    color: rgb(119, 119, 121);
+    height: 35px;
+    border-radius: 5px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.form-login{
+    margin-left:20px;
+    margin-right: 20px;
+}
+
+#divMainNav{
+    background-color: rgb(209, 209, 209);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+#login{
+    position: relative;
+    top: 0px;
+    left: 600px;
+    right:10px;
+    margin-left: 200 px;
+}
+
+#btnMemberLogin{
+    background-color: white;
+}
+#mainPageTitle{
+    margin-right: 40px;
+}
+
+#mainContainer{
+    margin-top: 50px;
+}

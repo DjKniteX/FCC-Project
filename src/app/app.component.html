@@ -1,27 +1,44 @@
 <!--The content below is only a placeholder and can be replaced.-->
-
-<div >
-  <div align="right">
-    <nav class="navbar navbar-light bg-faded">
-        <form class="form-inline">
-          <input class="form-control mr-sm-1" type="text" placeholder="User Name">
-          <input class="form-control mr-sm-2" type="text" placeholder="Password">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
-        </form>
-    </nav>
-  </div>
-  <nav class='navbar navbar-default'>
+<!-- <nav class='navbar navbar-default'>
+    <div class="container-fluid">
+      <div class="navbar-header">
         <a class='navbar-brand'>{{pageTitle}}</a>
+      </div>
           <ul class='nav navbar-nav'>
-            <li ><a [routerLink]="['/home']">Home</a></li>
+            <li class="active"><a [routerLink]="['/home']">Home</a></li>
             <li><a >Feed</a></li>
             <li><a >Tutorials</a></li>
             <li><a >Showcase</a></li>
             <li><a [routerLink]="['/login']">Login</a></li>
           </ul>
-  </nav>
+      </div>
+  </nav> -->
   
-  <div class='container'>
+<div class="container">
+  <div class="container-fluid jumbotron">
+      <ul class="nav navbar-nav" id="login">
+          <li class="dropdown" id="menuLogin">
+            <button class="dropdown-toggle" href="#" data-toggle="dropdown" id="btnMemberLogin">Member Login</button>
+            <div class="dropdown-menu" >
+                <form class="form-inline form-login">
+                    <input class="form-control mr-sm-1" type="text" placeholder="User Name">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Password">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+                </form>
+            </div>
+          </li>
+      </ul>
+    <div class="btn-group">
+        <h1 id="mainPageTitle">{{pageTitle}} </h1>
+        <button type="button" class="btn btn-menu btn-outline-success my-2 my-sm-0">Feed</button>
+        <button type="button" class="btn btn-menu btn-outline-success my-2 my-sm-0">Tutorials</button>
+        <button type="button" class="btn btn-menu btn-outline-success my-2 my-sm-0">Showcase</button>
+
+      </div>
+      
+      
+    </div>
+  <div class='container' id="mainContainer">
     <router-outlet></router-outlet>
   </div>
 </div>
